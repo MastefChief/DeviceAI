@@ -1,0 +1,16 @@
+[
+{
+  "modid": "deviceai",
+  "name": "Device AI",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Mastef_Chief"],
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [],
+  "parent": "cdm"
+}
+]
