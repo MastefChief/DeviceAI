@@ -439,6 +439,8 @@ public class AIApp extends Application {
     }
 
     private void aiRequestAndResponse(){
+        
+        //Todo add shop(use dialog to confirm order and link with emerald band), mob wiki
 
         if(aiInputTextField.getText().isEmpty()){
             aiOutputTextArea.setText("");
