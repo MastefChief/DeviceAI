@@ -4,6 +4,7 @@ package mastef_chief.deviceai;
 import com.mrcrayfish.device.api.ApplicationManager;
 import mastef_chief.deviceai.app.AIApp;
 import mastef_chief.deviceai.proxy.CommonProxy;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
@@ -19,6 +20,8 @@ public class Main {
 
     @Mod.Instance
     public static Main instance;
+
+    public static final CreativeTabs deviceAITab = new DeviceAITab("deviceAITab");
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
